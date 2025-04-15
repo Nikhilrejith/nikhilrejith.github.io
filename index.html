@@ -2,22 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nikhil Rejith</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      color: #333;
-      padding: 40px;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      min-height: 100vh;
+      padding-top: 40px;
     }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #00bfff;
+      margin-bottom: 20px;
+    }
+
     h1 {
-      color: #007acc;
+      margin: 0;
+      font-size: 2rem;
+      color: #00bfff;
+    }
+
+    p {
+      max-width: 600px;
+      text-align: center;
+      line-height: 1.6;
+      margin-top: 1rem;
+      padding: 0 1rem;
+    }
+
+    .socials {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .socials a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border: 1px solid #ffffff40;
+      padding: 8px 16px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .socials a:hover {
+      background-color: #00bfff;
+      color: #000;
     }
   </style>
 </head>
 <body>
-  <h1>Hello! I'm Nikhil Rejith</h1>
-  <p>This is my personal website hosted on GitHub Pages!</p>
+  <img src="profile.jpg" alt="Nikhil Rejith" class="profile-img" />
+  <h1>Nikhil Rejith</h1>
+  <p>Driven by discipline, built with passion.</p>
+  <p>I’m someone who believes in showing up every day—whether it’s for the grind, for growth, or for the people I care about. From lifting iron to learning code, I’m always building something stronger. Welcome to my personal corner of the web. 💪</p>
+  <div class="socials">
+    <a href="https://www.instagram.com/nikhil.rejith" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/nikhil-rejith" target="_blank">LinkedIn</a>
+  </div>
 </body>
 </html>
+
